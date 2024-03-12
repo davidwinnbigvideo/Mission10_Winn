@@ -14,13 +14,6 @@ namespace BowlingAPI.Controllers
             _bowlerRepository = temp;
         }
 
-        //[HttpGet]
-        //public IEnumerable<Bowler> Get()
-        //{
-        //    var bowlerData = _bowlerRepository.Bowlers.ToArray();
-
-        //    return bowlerData;
-        //}
         [HttpGet]
         public IEnumerable<Bowler> Get()
         {
