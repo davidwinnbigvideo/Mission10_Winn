@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st2sc\\source\\repos\\Mission10_Winn\\backend\\BowlingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4579F644-0C98-426C-931C-548A1A71A51C}|BowlingAPI.csproj|c:\\users\\st2sc\\source\\repos\\mission10_winn\\backend\\bowlingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4579F644-0C98-426C-931C-548A1A71A51C}|BowlingAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4579F644-0C98-426C-931C-548A1A71A51C}|BowlingAPI.csproj|c:\\users\\st2sc\\source\\repos\\mission10_winn\\backend\\bowlingapi\\controllers\\bowlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4579F644-0C98-426C-931C-548A1A71A51C}|BowlingAPI.csproj|solutionrelative:controllers\\bowlercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\st2sc\\source\\repos\\Mission10_Winn\\backend\\BowlingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\st2sc\\source\\repos\\Mission10_Winn\\backend\\BowlingAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T03:52:11.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BowlerController.cs",
+              "DocumentMoniker": "C:\\Users\\st2sc\\source\\repos\\Mission10_Winn\\backend\\BowlingAPI\\Controllers\\BowlerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BowlerController.cs",
+              "ToolTip": "C:\\Users\\st2sc\\source\\repos\\Mission10_Winn\\backend\\BowlingAPI\\Controllers\\BowlerController.cs",
+              "RelativeToolTip": "Controllers\\BowlerController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T03:12:03.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
