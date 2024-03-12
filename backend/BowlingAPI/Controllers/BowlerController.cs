@@ -14,12 +14,44 @@ namespace BowlingAPI.Controllers
             _bowlerRepository = temp;
         }
 
+        //[HttpGet]
+        //public IEnumerable<Bowler> Get()
+        //{
+        //    var bowlerData = _bowlerRepository.Bowlers.ToArray();
+
+        //    return bowlerData;
+        //}
         [HttpGet]
         public IEnumerable<Bowler> Get()
         {
-            var bowlerData = _bowlerRepository.Bowlers.ToArray();
+            var bowlerData = _bowlerRepository.Bowlers
+                .Join(
+                    _bowlerRepository.Teams,
+                    bowler => bowler.TeamId,
+                    team => team.TeamId,
+                    (bowler, team) => new Bowler
+                    {
+                        BowlerId = bowler.BowlerId,
+                        BowlerLastName = bowler.BowlerLastName,
+                        BowlerFirstName = bowler.BowlerFirstName,
+                        BowlerMiddleInit = bowler.BowlerMiddleInit,
+                        BowlerAddress = bowler.BowlerAddress,
+                        BowlerCity = bowler.BowlerCity,
+                        BowlerState = bowler.BowlerState,
+                        BowlerZip = bowler.BowlerZip,
+                        BowlerPhoneNumber = bowler.BowlerPhoneNumber,
+                        TeamId = bowler.TeamId,
+                        Team = new Team
+                        {
+                            TeamId = team.TeamId,
+                            TeamName = team.TeamName,
+                        }
+                    })
+                .Where(x => x.Team.TeamName == "Marlins" || x.Team.TeamName == "Sharks")
+                .ToArray();
 
             return bowlerData;
         }
+
     }
 }

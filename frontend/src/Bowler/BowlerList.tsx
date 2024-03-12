@@ -16,7 +16,7 @@ function BowlerList() {
   return (
     <>
       <div className="row">
-        <h4 className="text-center">Cool Bowlers</h4>
+        <h4 className="text-center">Bowler Information</h4>
       </div>
       <table className="table table-bordered">
         <tr>
@@ -36,7 +36,7 @@ function BowlerList() {
               <td>{b.bowlerFirstName}</td>
               <td>{b.bowlerMiddleInit}</td>
               <td>{b.bowlerLastName}</td>
-              <td>{b.teamId}</td>
+              <td>{b.team.teamName}</td>
               <td>{b.bowlerAddress}</td>
               <td>{b.bowlerCity}</td>
               <td>{b.bowlerState}</td>

@@ -125,3 +125,4 @@ C:\Users\st2sc\source\repos\Mission10_Winn\backend\BowlingAPI\obj\Debug\net8.0\r
 C:\Users\st2sc\source\repos\Mission10_Winn\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.pdb
 C:\Users\st2sc\source\repos\Mission10_Winn\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.genruntimeconfig.cache
 C:\Users\st2sc\source\repos\Mission10_Winn\backend\BowlingAPI\obj\Debug\net8.0\ref\BowlingAPI.dll
+C:\Users\st2sc\source\repos\Mission10_Winn\backend\BowlingAPI\obj\Debug\net8.0\BowlingAPI.sourcelink.json
